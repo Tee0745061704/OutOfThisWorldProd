@@ -1,0 +1,37 @@
+#display{
+  border: 5px solid black;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  width: 90%;
+  height: 40px;
+  padding: 20px;
+  color: black;
+  background-color: gray;
+  text-align: left;
+  font-size: 60px;
+  font-weight: bolder;
+}
+.buttons{
+  display: grid;
+  grid-template-columns: repeat( 3 , 9fr );
+  grid-gap: 5px;
+  padding: 5px;
+}
+.button{
+  border:6px solid black;
+  border-radius: 40px;
+  padding: 10px;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+  cursor: pointer;
+  
+}
+html{
+  background-image: url("img_1_1742539596179.jpg");
+  padding: 5px;
+}
+button:hover{
+  background-color: whitesmoke;
+}
